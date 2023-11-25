@@ -20,3 +20,14 @@
 .home-page img {
   width: 75%;
 }
+
+.beer-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.beer-info {
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
