@@ -32,7 +32,7 @@ function AllBeersPage() {
       {beersList.map((eachBeer) => {
         return (
           <div className="beer-card">
-            <Link to={`./beers/${eachBeer._id}`} key={eachBeer._id}>
+            <Link to={`./${eachBeer._id}`} key={eachBeer._id}>
               <img
                 src={eachBeer.image_url}
                 alt="beerImage"
